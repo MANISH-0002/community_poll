@@ -1,0 +1,11 @@
+[INFO ] 2024-02-22 15:25:26.394 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-22 15:25:29.455 [main] CommunitypollStepdef - Users direct click on vote button
+[INFO ] 2024-02-22 15:25:31.458 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-22 15:25:34.054 [main] CommunitypollStepdef - Users selects the poll  
+[INFO ] 2024-02-22 15:25:34.251 [main] CommunitypollStepdef - User Click on the vote button
+[ERROR] 2024-02-22 15:25:35.839 [main] CommunitypollStepdef - Scenario failed. Taking a screenshot or performing cleanup if needed.
+[INFO ] 2024-02-22 15:25:37.788 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-22 15:25:42.891 [main] CommunitypollStepdef - Users select one option from poll
+[INFO ] 2024-02-22 15:25:45.290 [main] CommunitypollStepdef - URL
+[INFO ] 2024-02-22 15:25:49.658 [main] CommunitypollStepdef - Users select one option from poll
+[ERROR] 2024-02-22 15:25:50.145 [main] CommunitypollStepdef - Scenario failed. Taking a screenshot or performing cleanup if needed.

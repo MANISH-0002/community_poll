@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="29.225">
+    <testcase classname="To test DemoWebShop Community Poll" name="User to poll without selecting anything" time="8.509">
+        <system-out><![CDATA[Given User navigate to Url..................................................passed
+Then Click on vote button directly..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test DemoWebShop Community Poll" name="User to poll without Login" time="6.248">
+        <failure message="Only registered users can vote." type="junit.framework.AssertionFailedError"><![CDATA[Given User navigate to Url..................................................passed
+Then User select one option from given poll.................................passed
+Then Click on vote button...................................................failed
+
+StackTrace:
+junit.framework.AssertionFailedError: Only registered users can vote.
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertFalse(Assert.java:39)
+	at steps.CommunitypollStepdef.click_on_vote_button(CommunitypollStepdef.java:69)
+	at ✽.Click on vote button(file:///C:/Community_Poll/Com_poll/src/test/java/feature/com_poll.feature:11)
+]]></failure>
+    </testcase>
+    <testcase classname="To test DemoWebShop Community Poll" name="User to poll with login" time="7.151">
+        <system-out><![CDATA[Given User navigate to Url..................................................passed
+Then User performs Login 'abbbba@gmail.com' '123456'........................passed
+Then User select one option from poll and vote..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test DemoWebShop Community Poll" name="User to poll with login 2" time="7.018">
+        <failure message="7494 vote(s)..." type="junit.framework.AssertionFailedError"><![CDATA[Given User navigate to Url..................................................passed
+Then User performs Login 'aabb1222@gmail.com' '123456'......................passed
+Then User select one option from poll and vote..............................failed
+
+StackTrace:
+junit.framework.AssertionFailedError: 7494 vote(s)...
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertFalse(Assert.java:39)
+	at steps.CommunitypollStepdef.user_select_one_option_from_poll_and_vote(CommunitypollStepdef.java:93)
+	at ✽.User select one option from poll and vote(file:///C:/Community_Poll/Com_poll/src/test/java/feature/com_poll.feature:15)
+]]></failure>
+    </testcase>
+</testsuite>
